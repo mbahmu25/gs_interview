@@ -3,3 +3,4 @@ pandas
 shapely
 typing
 flask
+pyarrow
