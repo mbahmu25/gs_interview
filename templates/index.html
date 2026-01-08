@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-2">
+    <div class="p-2 bg-[#f0f0f0] w-fit rounded rounded-2 flex gap-2 flex-col">
+      <div>
+        <h1 class="text-2xl font-bold">GEOSQUARE INTERVIEW CHALLENGE</h1>
+        <h1 class="text-xl">Grid Downscaling Service</h1>
+      </div>
+      <hr />
+      <div>
+        Get interpolated value from GID :<br />
+        <code>{url}/grid/gid/{gid}</code><br />
+        example :<br />
+        <code>{url}/grid/gid/J3N2M753E7F7E7</code><br />
+        output :<br />
+        {"gid":"J3N2M753E7F7E7","value":3.991540631360183}
+      </div>
+      <hr />
+      <div>
+        Get interpolated value from Longitude Latitude :<br />
+        <code>{url}/grid/gid/{longitue}/{latitude}</code><br />
+        example :<br />
+        <code>{url}/grid/coordinate/106.74420626/-6.22748512</code><br />
+        output :<br />
+        {"gid":"J3N2M753E7F7E7","value":3.991540631360183}
+      </div>
+    </div>
+    Created by Genta
+  </body>
+</html>
