@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-   return render_template('index.html')
+#    return render_template('index.html')
+    return "OK", 200
 
 @app.route("/grid/gid/<gid>")
 def from_gid(gid):
